@@ -78,3 +78,14 @@
 .home__social-link {
   @apply inline-flex text-[1.2rem] text-green transition-all duration-400 hover:translate-x-1;
 }
+
+/* ===== ABOUT SECTION ===== */
+.about__list {
+  @apply flex flex-col gap-4 mb-8;
+}
+.about__item {
+  @apply inline-flex items-start gap-3 text-[15px] text-grey;
+}
+.about__item-icon {
+  @apply inline-flex text-[1rem] text-green;
+}
