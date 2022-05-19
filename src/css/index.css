@@ -61,3 +61,20 @@
 .header__link.active-link::before {
   @apply absolute content-[""] top-6 left-0 w-[50%] h-[3px] bg-green;
 }
+
+/* ===== HOME SECTION ===== */
+.home__social {
+  @apply absolute top-8 right-0 grid gap-14 justify-items-center;
+}
+.home__social-follow {
+  @apply relative text-[14px] text-green font-semibold rotate-90;
+}
+.home__social-follow::after {
+  @apply absolute content-[""] top-[50%] right-[-45%] w-4 h-[3px] bg-green;
+}
+.home__social-links {
+  @apply inline-flex flex-col gap-1;
+}
+.home__social-link {
+  @apply inline-flex text-[1.2rem] text-green transition-all duration-400 hover:translate-x-1;
+}
