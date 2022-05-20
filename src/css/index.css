@@ -103,3 +103,27 @@
 .steps__content-text {
   @apply text-[15px] text-grey leading-text;
 }
+
+/* ===== PRODUCTS SECTION ===== */
+.products__content {
+  @apply relative grid;
+}
+.products__content:hover .products__content-img {
+  @apply -translate-y-1;
+}
+.products__content-img {
+  @apply relative w-[120px] justify-self-center mb-2 transition-all duration-400;
+}
+.products__content-title,
+.products__content-price {
+  @apply text-[13px] text-black font-medium;
+}
+.products__content-title {
+  @apply mb-1;
+}
+.products__content-button {
+  @apply absolute right-0 bottom-0 text-[1.15rem] text-white py-1 px-2 rounded-[.35rem] hover:bg-[#365949];
+}
+.products__content-circle {
+  @apply absolute top-[18%] left-[5%] w-[90px] h-[90px] bg-[#e6efeb] rounded-full;
+}
