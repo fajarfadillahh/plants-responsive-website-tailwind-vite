@@ -89,3 +89,17 @@
 .about__item-icon {
   @apply inline-flex text-[1rem] text-green;
 }
+
+/* ===== STEPS SECTION ===== */
+.steps__content {
+  @apply p-8 bg-white rounded-[1rem];
+}
+.steps__content-number {
+  @apply inline-flex py-3 px-4 bg-green rounded-[.7rem] text-[20px] text-white font-semibold transition-all duration-400 mb-6 hover:-translate-y-1;
+}
+.steps__content-title {
+  @apply text-[20px] text-black font-bold mb-4;
+}
+.steps__content-text {
+  @apply text-[15px] text-grey leading-text;
+}
