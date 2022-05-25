@@ -209,3 +209,32 @@
 .contact__area textarea {
   @apply resize-none;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__subscribe {
+  @apply flex justify-between p-3 bg-green bg-opacity-10 rounded-[1rem];
+}
+.footer__input {
+  @apply w-[70%] px-2 bg-transparent text-[15px] text-green border-none outline-none;
+}
+.footer__input::placeholder {
+  @apply text-[15px] text-green;
+}
+.footer__button {
+  @apply p-4;
+}
+.footer__title {
+  @apply text-[15px] text-black font-semibold mb-6;
+}
+.footer__information {
+  @apply text-[14px] text-green font-medium;
+}
+.footer__social-link {
+  @apply inline-flex text-[1.3rem] text-green;
+}
+.footer__card {
+  @apply w-[40px];
+}
+.footer__copy {
+  @apply text-[15px] text-green text-center;
+}
