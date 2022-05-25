@@ -173,3 +173,39 @@
 .accordion-open .questions__accordion-icon {
   @apply rotate-45;
 }
+
+/* ===== CONTACT SECTION ===== */
+.contact__subtitle {
+  @apply text-[15px] text-green font-medium mb-2;
+}
+.contact__text {
+  @apply inline-flex items-center gap-2 text-[15px] text-black font-medium;
+}
+.contact__icon {
+  @apply inline-flex text-[1.25rem] text-black;
+}
+.contact__inputs {
+  @apply grid gap-8 mb-10;
+}
+.contact__content {
+  @apply relative h-12 border-b-[1px] border-solid border-green border-opacity-20;
+}
+.contact__input {
+  @apply absolute top-0 left-0 w-full h-full p-[1rem_1rem_1rem_0] bg-transparent text-green border-none outline-none z-10;
+}
+.contact__input:focus + .contact__label {
+  @apply -top-3 left-0 text-[12px] text-green text-opacity-70 z-30;
+}
+.contact__input:not(:placeholder-shown).contact__input:not(:focus)
+  + .contact__label {
+  @apply -top-3 text-green text-opacity-70 z-30;
+}
+.contact__label {
+  @apply absolute top-3 w-full text-[15px] text-green transition-all duration-400;
+}
+.contact__area {
+  @apply h-28;
+}
+.contact__area textarea {
+  @apply resize-none;
+}
