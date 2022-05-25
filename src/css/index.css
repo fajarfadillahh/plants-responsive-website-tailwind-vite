@@ -201,7 +201,7 @@
   @apply -top-3 text-green text-opacity-70 z-30;
 }
 .contact__label {
-  @apply absolute top-3 w-full text-[15px] text-green transition-all duration-400;
+  @apply absolute top-3 w-full text-[14px] text-green transition-all duration-400;
 }
 .contact__area {
   @apply h-28;
@@ -237,4 +237,9 @@
 }
 .footer__copy {
   @apply text-[15px] text-green text-center;
+}
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply opacity-100;
 }
