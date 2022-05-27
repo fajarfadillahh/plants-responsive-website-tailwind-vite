@@ -243,3 +243,8 @@
 .scrollup.scroll-action {
   @apply opacity-100;
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-green bg-opacity-70 text-white;
+}
